@@ -94,6 +94,17 @@ describe('Testing Ecommerce', () => {
         //     expect(loginUserStatus.body.status).to.be.equals('success')
         //     // create a product
         //     console.log('Creando producto...')
+        //     const productMock = {
+        //         title: 'Product Tester',
+        //         description: 'Product Tester',
+        //         price: 100,
+        //         thumbnail: ['images/memoria.png'],
+        //         code: 'tester123',
+        //         stock: 10,
+        //         status: true,
+        //         category: 'componente',
+        //         owner: ADMIN_EMAIL
+        //     }
         //     const newProductStatus = await requester.post('/api/products').set('Cookie', cookie).send(productMock)
         //     console.log('Producto creado, respuesta:', newProductStatus.body)
         //     expect(newProductStatus.ok).to.be.true
