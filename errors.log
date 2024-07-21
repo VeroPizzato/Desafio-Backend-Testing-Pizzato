@@ -1,0 +1,74 @@
+error: ReferenceError: token is not defined - GET en /reset_password?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlcm9fcEBob3RtYWlsLmNvbSIsImlhdCI6MTcxODkzODE2NCwiZXhwIjoxNzE4OTQxNzY0fQ.xrzM43b9S3LJSwitAjvtk2OliQc5fI01gHwQbdnA_f8 - 6/20/2024
+error: ReferenceError: token is not defined - GET en /reset_password?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlcm9fcEBob3RtYWlsLmNvbSIsImlhdCI6MTcxODkzODE2NCwiZXhwIjoxNzE4OTQxNzY0fQ.xrzM43b9S3LJSwitAjvtk2OliQc5fI01gHwQbdnA_f8 - 6/20/2024
+error: ReferenceError: token is not defined - GET en /reset_password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlcm9fcEBob3RtYWlsLmNvbSIsImlhdCI6MTcxODk0MDQzMiwiZXhwIjoxNzE4OTQ0MDMyfQ.TRYfvcO-L9denwncE1UBt70F2gYETNQMLCl4eDJX6j4 - 6/21/2024
+error: ReferenceError: token is not defined - GET en /reset_password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlcm9fcEBob3RtYWlsLmNvbSIsImlhdCI6MTcxODk0MDY3MCwiZXhwIjoxNzE4OTQ0MjcwfQ.QFiH2Xmq_zWE6R_9xf48nkUww08xZrl7Tw5ASfj9xZE - 6/21/2024
+error: ReferenceError: token is not defined - GET en /reset_password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlcm9fcEBob3RtYWlsLmNvbSIsImlhdCI6MTcxODk0MDk4MiwiZXhwIjoxNzE4OTQ0NTgyfQ.sXvxJvPJJf2AkALFTqQsvrCeXYuJvXz9FqwNaU3a5DA - 6/21/2024
+error: CastErrorPOST en /api/sessions/reset_password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZlcm9fcEBob3RtYWlsLmNvbSIsImlhdCI6MTcxODk1MTIxMSwiZXhwIjoxNzE4OTU0ODExfQ.lCPfI1SWx-qkNf8fXyCY80_NAXR28VnkB20QykKExco - 6/21/2024
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-1f9ebbc7cbesm81218575ad.298 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-1f9eb2f1187sm81534535ad.56 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-70675b8f1c6sm4904493b3a.65 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-70664e89baasm6453380b3a.135 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-716b4a70627sm7375938a12.44 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7066857e9a8sm6438035b3a.89 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-1fa2b011112sm49655935ad.121 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7068d2514e7sm3510603b3a.179 - gsmtp","responseCode":535}
+error: undefined {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7196aa06f39sm5780800a12.91 - gsmtp","responseCode":535}
+error: CastErrorPOST en /api/sessions/register - 7/1/2024
+error: ReferenceError: user is not defined - GET en /products/detail/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: ReferenceError: user is not defined - GET en /products/detail/660c29ccc0338205dcc51c10 - 7/1/2024
+error: ReferenceError: user is not defined - GET en /products/detail/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: ReferenceError: user is not defined - GET en /products/detail/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: ReferenceError: CustomError is not defined - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: ReferenceError: CustomError is not defined - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: ReferenceError: CustomError is not defined - GET en /products/addCart/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: ReferenceError: ErrorCodes is not defined - GET en /products/addCart/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: Cannot read properties of undefined (reading 'getProductById') - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: ReferenceError: producto is not defined - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: Cannot read properties of undefined (reading 'getProductById') - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: ObjectParameterError: Parameter "filter" to findOne() must be an object, got "admin" (type string) - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: CastErrorGET en /api/sessions/githubcallback?code=b72af34797eab3db649b - 7/1/2024
+error: CastErrorGET en /api/sessions/githubcallback?code=3fe087eb69f54a2c3608 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: TypeError: this.jwtServices.getUserByEmail is not a function - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/6609b708bc530ed5f2d7d46a - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c2deeeae06b4c3ff9501f - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c2e92eae06b4c3ff95031 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/66228ecba82aa987f1d9a35b - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c2e0ceae06b4c3ff95021 - 7/1/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/2/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/2/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/2/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/2/2024
+error: InvalidAction: Error trying to add a product to a cart - GET en /products/addCart/660c29ccc0338205dcc51c10 - 7/2/2024
+error: TypeError: Cannot read properties of undefined (reading 'toString') - GET en / - 7/5/2024
+error: TypeError: Cannot read properties of undefined (reading 'toString') - GET en / - 7/20/2024
+error: TypeError: Cannot read properties of undefined (reading 'toString') - GET en / - 7/20/2024
+error: TypeError: Cannot read properties of undefined (reading 'toString') - GET en / - 7/20/2024
+error: ReferenceError: payload is not defined - POST en / - 7/20/2024
