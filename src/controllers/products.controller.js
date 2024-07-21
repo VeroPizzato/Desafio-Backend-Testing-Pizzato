@@ -71,8 +71,9 @@ class ProductsController {
             const user = req.session.user
             const { title, description, price, thumbnail, code, stock, status, category } = req.body
             if (user.rol == "admin" || user.rol == "premium") {  // no hace falta porque lo valida el middleware
-                await this.service.addProduct(title, description, price, thumbnail, code, stock, status, category, user.email)
-                res.sendCreatedSuccess('Producto agregado correctamente')
+                const createdProduct = await this.service.addProduct(title, description, price, thumbnail, code, stock, status, category, user.email)
+                //res.sendCreatedSuccess('Producto agregado correctamente')
+                res.sendCreatedSuccess(createdProduct._id)
                 //return res.status(201).json({ success: true })
             }
             else
@@ -87,9 +88,9 @@ class ProductsController {
     }
 
     async updateProduct(req, res) {
-        try {
+        try {            
             const prodId = req.pid
-            const datosAUpdate = req.body
+            const datosAUpdate = req.body            
             // if (isNaN(prodId)){
             //     res.status(400).json({ error: "Invalid number format" })
             //     return
@@ -121,10 +122,10 @@ class ProductsController {
         }
     }
 
-    async delete(req, res) {
+    async deleteProduct(req, res) {
         try {
             const prodId = req.pid
-            const producto = await this.service.getProductById(prodId)
+            const producto = await this.service.getProductById(prodId)                    
             if (!producto) {
                 return producto === false
                     ? res.sendNotFoundError({ message: 'Not found!' }, 404)
@@ -137,7 +138,7 @@ class ProductsController {
                     status: "Error",
                     error: 'No autorizado'
                 })
-            }
+            }           
             await this.service.deleteProduct(prodId)
             return res.sendSuccess('Producto Eliminado correctamente')
             // return res.status(200).json({ message: "Producto Eliminado correctamente" })    // HTTP 200 OK

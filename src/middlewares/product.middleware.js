@@ -211,13 +211,13 @@ const validarProdActualizado = async (req, res, next) => {
 
 // Middleware para validacion de datos de un producto 
 const validarProductoExistente = async (req, res, next) => {
-    try {
-        let prodId = req.params.pid
+    try {      
+        let prodId = req.params.pid        
         // if (isNaN(prodId)) {
         //     res.status(400).json({ error: "Formato invalido." })
         //     return
         // }
-        const producto = await productsService.getProductById(prodId)
+        const producto = await productsService.getProductById(prodId)       
         if (!producto) {
             throw CustomError.createError({
                 name: 'ProductNotFound',
@@ -228,7 +228,7 @@ const validarProductoExistente = async (req, res, next) => {
             // return producto === false
             //     ? res.status({ message: 'Not found!' }, 404)                 
             //     : res.status({ message: 'Something went wrong!' })
-        }
+        }        
         next()
     }
     catch {
