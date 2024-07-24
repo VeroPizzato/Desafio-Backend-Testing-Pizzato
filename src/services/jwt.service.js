@@ -59,7 +59,7 @@ class JwtServices {
     }
 
     async getUserByEmail(email) {     
-        if (email == 'admin') {
+        if (email == config.ADMIN_EMAIL) {
             let user = {
                 first_name: "Usuario",
                 last_name: "de CODER",

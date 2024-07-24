@@ -71,11 +71,11 @@ class CartDAO {
 
     deleteProductToCart = async (cid, pid) => {
         //obtengo el carrito
-        const cart = await this.getCartByCId(cid)
+        const cart = await this.getCartByCId(cid)        
         if (!cart) return false
         //obtengo los productos del carrito        
-        const productsFromCart = cart.products
-        const productIndex = productsFromCart.findIndex(item => item._id.toString() === pid)
+        const productsFromCart = cart.products           
+        const productIndex = productsFromCart.findIndex(item => item._id._id.toString() === pid)
         if (productIndex != -1) {
             //existe el producto en el carrito, puedo eliminarlo
             productsFromCart.splice(productIndex, 1)

@@ -13,9 +13,9 @@ const productsService = new ProductsService(productDAO)
 module.exports = {
     // Middleware para validacion de datos al agregar un carrito 
     validarNuevoCarrito: async (req, res, next) => {
-        try {            
+        try {                 
             const { products } = req.body
-            products.forEach(async producto => {
+            products.forEach(async producto => {                
                 const prod = await productsService.getProductById(producto._id)
                 if (!prod) {
                     return prod === false
@@ -26,7 +26,7 @@ module.exports = {
                     res.status(400).json({ error: "Invalid quantity format" })
                     return
                 }
-            })
+            })         
             next()
         }
         catch {

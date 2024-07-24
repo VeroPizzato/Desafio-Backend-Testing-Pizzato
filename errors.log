@@ -72,3 +72,24 @@ error: TypeError: Cannot read properties of undefined (reading 'toString') - GET
 error: TypeError: Cannot read properties of undefined (reading 'toString') - GET en / - 7/20/2024
 error: TypeError: Cannot read properties of undefined (reading 'toString') - GET en / - 7/20/2024
 error: ReferenceError: payload is not defined - POST en / - 7/20/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a0392a31a8c5843e0d0187/products/66a0392a31a8c5843e0d0184 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a03b2531a8c5843e0d01ef/products/66a03b2531a8c5843e0d01ec - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a03b7031a8c5843e0d020c/products/66a03b7031a8c5843e0d0209 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a03c5c31a8c5843e0d0229/products/66a03c5c31a8c5843e0d0226 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a03dab467003c72535291c/products/66a03dab467003c725352919 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a03e91467003c725352939/products/66a03e91467003c725352936 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a03ec751410c9eab6cf3c5/products/66a03ec751410c9eab6cf3c2 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a04016bc648d460e559ce8/products/66a04016bc648d460e559ce5 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a0413bbc648d460e559d05/products/66a0413bbc648d460e559d02 - 7/23/2024
+error: InvalidAction: Error trying to add a product to a cart - POST en /66a04172bc648d460e559d22/products/66a04172bc648d460e559d1f - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a044e350ba0290d2ab2478/products/66a044e350ba0290d2ab2475 - 7/23/2024 - DELETE en /66a044e350ba0290d2ab2478/products/66a044e350ba0290d2ab2475 - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a0456750ba0290d2ab249d/products/66a0456750ba0290d2ab249a - 7/23/2024 - DELETE en /66a0456750ba0290d2ab249d/products/66a0456750ba0290d2ab249a - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a0459350ba0290d2ab24c2/products/66a0459350ba0290d2ab24bf - 7/23/2024 - DELETE en /66a0459350ba0290d2ab24c2/products/66a0459350ba0290d2ab24bf - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a045ca1d88a291be3bc4cd/products/66a045ca1d88a291be3bc4ca - 7/23/2024 - DELETE en /66a045ca1d88a291be3bc4cd/products/66a045ca1d88a291be3bc4ca - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a046281d88a291be3bc4f2/products/66a046281d88a291be3bc4ef - 7/23/2024 - DELETE en /66a046281d88a291be3bc4f2/products/66a046281d88a291be3bc4ef - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a046824a492bce794ba03e/products/66a046824a492bce794ba03b - 7/23/2024 - DELETE en /66a046824a492bce794ba03e/products/66a046824a492bce794ba03b - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a04ab1687adfa16c2432df/products/66a04ab1687adfa16c2432dc - 7/23/2024 - DELETE en /66a04ab1687adfa16c2432df/products/66a04ab1687adfa16c2432dc - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a04b65f22481609dec88c9/products/66a04b65f22481609dec88c6 - 7/23/2024 - DELETE en /66a04b65f22481609dec88c9/products/66a04b65f22481609dec88c6 - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a04c4af22481609dec88ee/products/66a04c4af22481609dec88eb - 7/23/2024 - DELETE en /66a04c4af22481609dec88ee/products/66a04c4af22481609dec88eb - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a04c8268fd1caee35b29cb/products/66a04c8268fd1caee35b29c8 - 7/23/2024 - DELETE en /66a04c8268fd1caee35b29cb/products/66a04c8268fd1caee35b29c8 - 7/23/2024
+error: ReferenceError: err is not defined - DELETE en /66a04d129fb4ee3fbc3a2761/products/66a04d129fb4ee3fbc3a275e - 7/23/2024 - DELETE en /66a04d129fb4ee3fbc3a2761/products/66a04d129fb4ee3fbc3a275e - 7/23/2024

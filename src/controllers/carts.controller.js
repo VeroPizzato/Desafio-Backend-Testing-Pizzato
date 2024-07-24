@@ -71,8 +71,8 @@ class CartsController {
         try {
             let idCart = req.cid
             let idProd = req.pid
-            let quantity = +req.body.quantity           
-            
+            let quantity = +req.body.quantity         
+                      
             // const producto = await this.productsService.getProductById(prodId)
             // if (!producto) {
             //     return res.status(404).json({
@@ -143,11 +143,11 @@ class CartsController {
     async deleteProductToCart(req, res) {
         try {
             let cartId = req.cid
-            let prodId = req.pid
+            let prodId = req.pid            
             const result = await this.cartsService.deleteProductToCart(cartId, prodId)
             if (result)
                 // HTTP 200 OK
-                res.status(200).json(`Se eliminó el producto con ID ${prodId} del carrito con ID ${cartId}.`)
+                res.sendSuccess(`Se eliminó el producto con ID ${prodId} del carrito con ID ${cartId}.`)
             else {
                 res.sendUserError(err)
                 // HTTP 400
